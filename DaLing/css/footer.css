@@ -1,0 +1,71 @@
+@charset "utf-8";
+.footer .reason{
+	text-align: center;
+	border-top: 1px solid #d8d8d8;
+	box-shadow: 0 5px 5px #d8d8d8;
+}
+.footer .reason .res{
+	font-size: 16px;
+	line-height: 80px;
+	color: #666;
+}
+.footer .reason .res-choose{
+	padding-right: 50px;
+}
+.footer .reason .res-icon{
+	font-size: 48px;
+	color: #dcdcdc;
+	position: relative;
+	top: 12px;
+}
+.footer .reason .res .icon{
+	color: #664996;
+	font-size: 32px;
+	position: relative;
+	top: 8px;
+	margin: 0 10px 0 130px;
+}
+.footer .reason .res.res-24h .icon{
+	position: relative;
+	top: 6px;
+}
+.footer .investors{
+	width: 1152px;
+	border-bottom: 1px solid #d8d8d8;
+	margin: 34px auto 0;
+}
+.footer .investors .investor h3{
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 18px;
+	color: #666;
+	padding-bottom: 10px;	
+}
+.footer .investors .investor p{
+	font-size: 12px;
+	line-height: 24px;
+	padding-bottom: 37px;	
+	color: #666;
+}
+.footer .investors .investor.luhan{
+	padding-left: 42px;
+}
+.footer .investors .investor.other{
+	padding-right: 124px;
+	width: 299px;
+}
+.footer .copyright{
+	padding-bottom: 25px;
+	text-align: center;
+}
+.footer .copyright .fs14{
+	padding-top: 20px;
+	color: #666666;
+	font-size: 14px;
+}
+.footer .copyright .fs14 a{
+	line-height: 14px;
+}
+.footer .copyright .fs14 .fs-con{
+	line-height: 42px;
+}

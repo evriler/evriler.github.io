@@ -5,12 +5,6 @@ $(function(){
 	$('.nav').load('nav.html',function(){
 		$.getScript('js/nav.js');
 	});
-	$('.banner').load('banner.html',function(){
-		$.getScript('js/banner.js');
-	});
-	$('.main').load('main.html',function(){
-		$.getScript('js/main.js');
-	});
 	$('.footer').load('footer.html',function(){
 		$.getScript('js/footer.js');
 	});
@@ -19,4 +13,3 @@ $(function(){
 	});
 
 })
-

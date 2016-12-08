@@ -11,9 +11,6 @@ $(function(){
 	$('.main').load('main.html',function(){
 		$.getScript('js/main.js');
 	});
-	$('.footer').load('footer.html',function(){
-		$.getScript('js/footer.js');
-	});
 	$('.aside').load('aside.html',function(){
 		$.getScript('js/aside.js');
 	});

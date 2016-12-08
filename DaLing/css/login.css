@@ -97,7 +97,7 @@
 .login-register .log-reg-form .submit-btn{
     width: 320px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 16px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -112,14 +112,7 @@
 	float: right;
     width: 100px;
     height: 28px;
-    background-color: #C0C0C0;
-    color: #ff6700;
-    line-height: 28px;
-    font-size: 16px;
     margin-top: 7px;
-    text-align: center;
-    font-style: italic;
-    cursor: pointer;
 }
 .login-register .log-reg-form .rg-form .verify{
 	width: 145px;
@@ -156,57 +149,16 @@
 .login-register .log-reg-form .ico-user{
 	background: url(../img/ico-login.png) no-repeat -29px 0;
 }
+form .error {
+    border: 1px solid #e14958!important;
+    background: #fdf3fd;
+}
 .ctrl.current input {
     border: 1px solid #94d469!important;
 }
 .ctrl.current .ico-user {
     background: url(../img/ico-login.png) no-repeat;
 }
-.login-register .log-reg-form .ctrl.current .login-sign {
-    border-right-color: #94d469;
-}
-.login-register .log-reg-form .ctrl.current .icopa{
-	background: url(../img/ico-login.png) no-repeat 0 -27px;
-}
-.login-register .log-reg-form .rg-form .ctrl.current .ico-msgcode {
-    background: url(../img/ico-login.png) no-repeat 0 -56px;
-}
-.error-info{
-	width: 150px;
-	height: 20px;
-	background-color: #CCCCCC;
-	text-align: center;
-	line-height: 20px;
-	font-size: 12px;
-	color: #666;
-	margin: 10px auto 0;
-}
-.phone-val {
-    display: none;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-.phone-val .frame{
-	width: 100%;
-	height: 100%;
-	background-color: #ff8700;
-	opacity: 0.5;	
-}
-
-.phone-val .val-psw{
-	position: absolute;
-	top: -320px;
-	left: 25%;
-	text-align: center;
-	font-size: 50px;
-	line-height: 320px;
-	font-weight: 900;
-	width: 480px;
-	height: 320px;
-	color: #666;
-	background-color: #CC3333;
+.ctrl.current .login-sign {
+    border-right: solid 1px #94d469;
 }

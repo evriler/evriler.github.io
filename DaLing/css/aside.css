@@ -1,0 +1,171 @@
+@charset "utf-8";
+.aside{
+	height: 100%;
+	position: fixed;
+	z-index: 999;
+	right: 0;
+	top: 0;
+	background-color: #666666;
+}
+.aside .si-function{
+	position: relative;
+	height: 100%;
+	width: 42px;
+	color: #e6e6e6;
+	text-align: center;
+	padding-top: 108px;
+	background-color: #333;
+	font-size: 12px;
+}
+.aside .si-function .shop-catch{
+	padding-top: 14px;
+}
+.aside .si-function .shop-catch:hover,
+.aside .si-function .shop-catch.active{
+	width: 42px;
+	height: 139px;
+	background-color: #e34755;
+	cursor: pointer;
+}
+.aside .si-function .pay,
+.aside .si-function .concern{
+	position: relative;
+	z-index: 100;
+	cursor: pointer;
+}
+.aside .si-function .pay .pay-benefit,
+.aside .si-function .concern-wo{
+	position: absolute;
+	right: -100px;
+	opacity: 0;
+	z-index: 5;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	line-height: 42px;
+	width: 100px;
+	font-size: 14px;
+	height: 42px;
+	background-color: #333333;
+}
+.aside .si-function .pay-benefit .pd,
+.aside .si-function .concern-wo .wo{
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	margin-top: 17px;
+	right: -10px;
+	border: 5px solid transparent;
+	border-left-color: #333333;
+}
+.aside .si-function .iconfont{
+	font-size: 20px;
+}
+.aside .si-function b{
+	color: #515151;
+}
+.aside .si-function span{
+	line-height: 24px;
+}
+.aside .si-function .catch{
+	margin: 0 auto 10px;
+}
+.aside .si-function .num{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin: 6px auto 17px;
+	background-color: #e34755;
+	border-radius: 50%;
+}
+.aside .si-function .sii{
+	line-height: 42px;
+}
+.aside .si-function .icon{
+	display: block;
+	margin-top: 18px;
+	font-size: 20px;
+}
+/*.aside .si-function .pay-benefit,
+.aside .si-function .concern-wo{
+	position: fixed;
+	right: -100px;
+	width: 100px;
+	z-index: 5;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	line-height: 42px;
+	font-size: 14px;
+	height: 42px;
+	background-color: #333333;
+}
+.aside .si-function .pay-benefit .pd,
+.aside .si-function .concern-wo .wo{
+	position: fixed;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	margin-top: 17px;
+	right: 32px;
+	border: 5px solid transparent;
+	border-left-color: #333333;
+}*/
+.aside .si-function .si-code{
+	position: relative;
+	cursor: pointer;
+}
+.aside .si-function .si-code .code-img{
+	color: #000;
+	font-size: 12px;
+	line-height: 12px;
+	opacity: 0;
+	position: absolute;
+	right: 42px;
+	top: 88px;
+	width: 110px;
+	height: 138px;
+	border: 1px solid #e5e5e5;
+	border-right-color: #fff;
+	background-color: #fff;
+}
+.aside .si-function .si-code .code-img img{
+	height: 110px;
+}
+.aside .si-function .si-code i{
+	position: absolute;
+	top: ;
+	bottom: -226px;
+	left: 7px;
+	font-size: 28px;
+}
+.aside .si-function .si-code .sc{
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	right: -11px;
+	border: 5px solid transparent;
+	border-left-color: #fff;
+	margin-top: 7px;
+}
+.aside .si-function .si-top{
+	margin-top: 18px;
+	position: relative;
+	bottom: -208px;
+	cursor: pointer;
+}
+.aside .si-function .si-top i{
+	font-size: 28px;
+}
+.aside .si-function .icon:hover,
+.aside .si-function .icon-con:hover,
+.aside .si-function .icon.active,
+.aside .si-function .icon-con.active{
+	display: block;
+	width: 42px;
+	height: 42px;
+	background-color: #e34755;
+}
+.aside .si-column .column{
+	width: 0;
+}

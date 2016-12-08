@@ -64,7 +64,7 @@
 }
 .nav .allclass .first-classify{
 	height: 30px;
-	width: 245px;
+	widows: 245px;
 	background-color: #6a4084;
 	text-align: center;
 	cursor: pointer;
@@ -83,21 +83,19 @@
 	position: relative;
 	top: 0;
 	right: -8px;
-	display: none;
 }
 .nav .allclass .first-classify .iconfont-down{
 	position: relative;
 	top: 0;
 	right: -8px;
-}
-.nav .allclass ul{
 	display: none;
 }
-.nav .allclass .classify.active{
-	
+.nav .allclass .classify:hover {
 	padding: 10px 21px 0;
 	background-color: #fff;
 	border: 1px solid #654579;
+	border-top: 0;
+	border-top-right-radius: 5px;
 }
 .nav .allclass .classify:hover dl .content {
   border: 0;

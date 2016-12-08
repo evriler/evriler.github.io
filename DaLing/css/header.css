@@ -1,0 +1,154 @@
+@charset "utf-8";
+.header{
+	width: 100%;
+	height: 148px;
+}
+.header .header-top{
+	height: 30px;
+	font-size: 11px;
+	line-height: 30px;
+	border-bottom: 1px solid #dadada;
+	background-color: #f2f2f2;
+}
+.header .header-top .header-top-right{
+	position: relative;
+}
+.header .header-top .header-top-right a.last{{
+	margin-right: 40px;
+}}
+.header .header-top .header-top-right .register{
+	position: absolute;
+	left: 40px;
+	top: 26px;
+	z-index: 2;
+	height: 30px;
+	padding: 0 5px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #6a4084;
+}
+.header .header-top .header-top-right .register:before{
+	content: '注册即得新人专享优惠券';
+}
+.header .header-top .header-top-right .register .reg-box:after{
+	content: "";
+	font-size: 0;
+	position: absolute;
+	bottom: 25px;
+	left: 12px;
+	border-bottom: 10px solid #6a4084;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.header .header-top .header-top-right .register .reg-box{
+	color: #fff;
+}
+.header .header-top .header-top-right .register .reg-box:hover{
+	color: #e13475;
+}
+.header .header-top .header-top-right .register .reg-box{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 14px;
+}
+.header .header-top .header-top-right span{
+	width: 1px;
+	height: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 1px solid #f2f2ca;
+	border-right: 1px solid #caf2f2;
+	background-color: #9e669e;
+	margin: 0 5px;
+}
+.header .header-bottom{
+	height: 117px;
+}
+.header .header-bottom .header-logo{
+	margin: 10px 106px 0 0;
+}
+.header .header-bottom .header-logo .logo-img-left{
+	margin-right: 20px;
+}
+.header .header-bottom .header-search{
+	margin-top: 30px;
+	position: relative;
+}
+.header-bottom .header-search .header-search-input{
+	width: 392px;
+	height: 36px;
+	border: 1px solid #6a4084;
+	border-right: 0;
+}
+.header-bottom .header-search .header-search-input .search-input{
+	border: 0;
+	width: 305px;
+	font-size: 14px;
+	padding-left: 5px;
+	line-height: 36px;
+}
+.header-bottom .header-search .header-search-input .search-btn{
+	position: absolute;
+	width: 82px;
+	height: 36px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	background-color: #6a4084;
+	cursor: pointer;
+}
+.header-bottom .header-search .header-search-input a.search-btn:hover{
+	text-decoration: none;
+}
+.header-bottom .header-search .header-search-hint a{
+	font-size: 12px;
+	line-height: 32px;
+	margin-right: 4px;
+}
+.header-bottom .header-cartway{
+	position: relative;
+	width: 168px;
+	height: 38px;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.header-bottom .header-cartway i{
+	margin: 0 14px;
+	line-height: 38px;
+}
+.header-bottom .header-cartway i.iconfont{
+	color: #6a4084;
+}
+.header-bottom .header-cartway i.iconfont-gt{
+	font-size: 14px;
+	color: #dbdbdb;
+}
+.header-bottom .header-cartway a{
+	font-size: 14px;
+	line-height: 38px;
+}
+.header-bottom .header-cartway:hover{
+	opacity: 0.7;
+}
+.header-bottom .header-cartway:hover a{
+	color: rgb(225,73,88);
+	text-decoration: none;
+}
+.header-bottom .header-cartway span{
+	position: absolute;
+	right: 36px;
+	top: -5px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #e34755;
+	border-radius: 50%;
+}

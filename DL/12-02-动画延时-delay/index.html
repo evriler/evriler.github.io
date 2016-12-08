@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link  rel="stylesheet" href="css/base.css"/>
+		<link  rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		
+		<div class="right-nav">
+			<ul class="nav-wrapper">
+				<li class="nav-item">
+					<span class="item-content">1</span>
+					<span class="item-des">京东会员</span>
+				</li>
+				<li class="nav-item">
+					<span class="item-content">2</span>
+					<span class="item-des">购物车</span>
+				</li>
+				<li class="nav-item">
+					<span class="item-content">3</span>
+					<span class="item-des">我的关注</span>
+				</li>
+				<li class="nav-item">
+					<span class="item-content">4</span>
+					<span class="item-des">我的足迹</span>
+				</li>
+				<li class="nav-item">
+					<span class="item-content">5</span>
+					<span class="item-des">我的消息</span>
+				</li>
+			</ul>
+		</div>
+		
+		<button class="move">运动</button>
+		<div class="box"></div>
+		
+		<script src="js/jquery.1.11.3.min.js"></script>
+		<script>
+			$(function(){
+				/*
+				 	find(selector)
+				 	eq(index)
+				 	next()
+				 	prev()
+				 	siblings()
+				 	parent()
+				 	parents(selector)
+				 	
+				 	index()
+				 	
+				 	show() hide()  toggle()
+				 	fadeIn() fadeOut() fadeToggle()
+				 	
+				 	slideDown() slideUp()
+				 	
+				 	stop(true).animate()
+				 	stop(true).delay().animate()
+				 	
+				 	delay() 动画延时  和delay之后的动画是绑定在一块的，使用stop时，延时也会清除
+				 	
+				*/
+$('.right-nav .nav-item').hover(function(){
+	$(this).find('.item-des').stop(true).delay(200).animate({
+		left: -60
+	},200);
+},function(){
+	$(this).find('.item-des').stop(true).delay(100).animate({
+		left: 0
+	},100);
+});
+				
+				
+				
+				//flag 应用  
+				var left = 0;
+				var moving = false; // true 代表正在运动
+				$('.move').click(function(){
+					//如果正在运动，return
+					if(moving){
+						return;
+					}
+					moving = true;
+					left += 100;
+					$('.box').stop(true).animate({
+						marginLeft: left
+					},1000,function(){
+						moving = false;
+					});
+				});
+			})
+			
+			
+		</script>
+	</body>
+</html>
